@@ -1,0 +1,42 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.main {
+  padding-top: 100px;
+  display: flex;
+  width: 600px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  &__right {
+    height: 100%;
+  }
+  &__right_img {
+    height: 300px;
+    width: 100%;
+    padding-left: 30px;
+  }
+}
+
+.search {
+  resize: vertical;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid rgb(228, 228, 228);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  width: 50%;
+  outline: none;
+}
+.country-info-main {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.country-list {
+  margin-top: 50px;
+  padding: 0;
+}
